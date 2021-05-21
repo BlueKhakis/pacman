@@ -1,10 +1,10 @@
 'use strict';
 
-console.log('it works!');
+// const htmlmin = require("gulp-htmlmin");
 
 
 const pacmanMouth  = document.querySelector(".pacboy-active-light");
-const body  = document.querySelector('body');
+
 
  document.addEventListener('keydown', (event) => {
     if(event.code === 'ArrowRight') {
@@ -15,3 +15,4 @@ const body  = document.querySelector('body');
   }
     }
 })
+
